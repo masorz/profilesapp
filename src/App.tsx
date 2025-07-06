@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+const viteLogo = new URL('/vite.svg', import.meta.url).href;
 import './App.css'
 
 function App() {
